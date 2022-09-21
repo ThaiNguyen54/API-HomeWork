@@ -25,5 +25,7 @@ try {
 // use router
 app.use(Router);
 
+
 // listen on port
-app.listen(5000, () => console.log('Server running at http://localhost:5000'));
+let port = process.env.PORT || 5000;
+app.listen(port, () => console.log('Server running at http://localhost:5000'));
