@@ -15,12 +15,12 @@ app.use(express.json());
 app.use(cors());
 
 // Testing database connection
-try {
-	await db.authenticate();
-	console.log('Connection has been established successfully.');
-} catch (err) {
-	console.error('Unable to connect to the database: ', error);
-}
+// try {
+// 	await db.authenticate();
+// 	console.log('Connection has been established successfully.');
+// } catch (err) {
+// 	console.error('Unable to connect to the database: ', error);
+// }
 
 // use router
 app.use(Router);
