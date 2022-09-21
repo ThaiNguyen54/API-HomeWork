@@ -7,7 +7,7 @@ import {
 	createProduct,
 	updateProduct,
 	deleteProduct
-} from "../controllers/Product.js";
+} from "../controllers/product.js";
 
 import {Hello, Welcom} from "../controllers/Message.js";
 
