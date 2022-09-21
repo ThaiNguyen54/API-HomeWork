@@ -13,7 +13,6 @@ const app = express();
 app.use(express.json());
 // use cors
 app.use(cors());
-
 // Testing database connection
 // try {
 // 	await db.authenticate();
