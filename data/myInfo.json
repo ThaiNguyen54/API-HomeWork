@@ -1,7 +1,8 @@
-{
-  "message": "Hello",
-  "Full Name": "Nguyen Duc Thong Thai",
-  "Student ID": "19522188",
-  "College": "UIT"
-}
-
+[
+  {
+    "message": "Hello",
+    "Full Name": "Nguyen Duc Thong Thai",
+    "Student ID": "19522188",
+    "College": "UIT"
+  }
+]
