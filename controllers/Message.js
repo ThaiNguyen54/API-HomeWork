@@ -2,6 +2,7 @@
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 const myinfo = require("../data/myInfo.json");
+const Anime = require('../data/MyFavoriteAnime.json')
 
 export const Hello = async (req,res) => {
     try{
@@ -9,6 +10,17 @@ export const Hello = async (req,res) => {
         //     'message': 'Hello, my name is Thai (19522188)'
         // })
         res.send(myinfo)
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+export const FavoriteAnime = async (req,res) => {
+    try{
+        // res.json({
+        //     'message': 'Hello, my name is Thai (19522188)'
+        // })
+        res.send(Anime)
     } catch (error) {
         console.log(error);
     }

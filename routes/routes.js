@@ -9,7 +9,7 @@ import {
 	deleteProduct
 } from "../controllers/product.js";
 
-import {Hello, Welcom} from "../controllers/Message.js";
+import {Hello, Welcom, FavoriteAnime} from "../controllers/Message.js";
 
 // Init express router
 const router = express.Router();
@@ -27,6 +27,7 @@ router.delete('/products/:id', deleteProduct);
 
 
 router.get('/message', Hello);
+router.get('/Anime', FavoriteAnime)
 router.get('/', Welcom);
 // export router
 export default router;
